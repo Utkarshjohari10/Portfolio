@@ -1,0 +1,90 @@
+<%- include("partials/header") -%>
+
+<main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is <span class="purple">Utkarsh</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <a href="https://drive.google.com/file/d/1DVbZl07JH1HAZHWp6GZ5SJ7p8aLMaxYA/view?usp=drivesdk "  target="_blank"><button class="btn">Download Resume</button></a>
+          <a href="https://github.com/Utkarshjohari10" target="_blank"><button class="btn">Visit Github</button></a>
+        </div>
+      </div>
+      <div class="rightsection">
+        <img src="bg.png" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondsection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img src="html.png" class="top-img" alt="html" />
+          <div class="vertical-text">HTML Developer</div>
+          <div class="vertical-desp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            eaque quis consequatur eum voluptate corrupti maxime deserunt quas
+            perspiciatis tenetur exercitationem sint rerum, maiores
+            voluptatibus nesciunt quasi nobis dolor nulla.
+          </div>
+        </div>
+        <div class="vertical-node">
+          <img src="nodejs.png" class="top-img" alt="html" />
+          <div class="vertical-text">Node.js Developer</div>
+          <div class="vertical-desp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            eaque quis consequatur eum voluptate corrupti maxime deserunt quas
+            perspiciatis tenetur exercitationem sint rerum, maiores
+            voluptatibus nesciunt quasi nobis dolor nulla.
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="java.png" class="top-img" alt="html" />
+          <div class="vertical-text">Java Developer</div>
+          <div class="vertical-desp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            eaque quis consequatur eum voluptate corrupti maxime deserunt quas
+            perspiciatis tenetur exercitationem sint rerum, maiores
+            voluptatibus nesciunt quasi nobis dolor nulla.
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="react.png" class="top-img" alt="html" />
+          <div class="vertical-text">React Developer</div>
+          <div class="vertical-desp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            eaque quis consequatur eum voluptate corrupti maxime deserunt quas
+            perspiciatis tenetur exercitationem sint rerum, maiores
+            voluptatibus nesciunt quasi nobis dolor nulla.
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="dsa.png" class="top-img" alt="html" />
+          <div class="vertical-text">Data Structure and Algorithum</div>
+          <div class="vertical-desp">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            eaque quis consequatur eum voluptate corrupti maxime deserunt quas
+            perspiciatis tenetur exercitationem sint rerum, maiores
+            voluptatibus nesciunt quasi nobis dolor nulla.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Web Developer",
+        "Java Developer",
+        "MERN Stack Developer",
+        "WORA Developer",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+
+<%- include("partials/footer") -%>  
